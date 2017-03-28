@@ -1,0 +1,14 @@
+net: "/hw2/train-10.prototxt"
+test_iter: 1000
+test_interval: 1000
+base_lr: 0.00001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 100000
+display: 40
+max_iter: 2000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 2000
+snapshot_prefix: "/hw2/log-10/img"
+solver_mode: GPU
